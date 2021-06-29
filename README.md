@@ -1,2 +1,3 @@
-# unet-onnx
-U-NET onnx model from original implementation
+# U-NET ONNX Model
+U-NET ONNX model is created from the following PyTorch model:
+https://github.com/milesial/Pytorch-UNet
