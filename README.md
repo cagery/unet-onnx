@@ -13,6 +13,7 @@ Please utilize `compare_onnxruntime.py` script to make output comparison between
 ## The model details
 
 - On the "UP" path, it uses `bilinear` upsampling instead of `transposed` convolutions (deconvolutions). Bilinear will have less weights but it won't be good as transposed for higher spatial resolutions.
+- Input of the provided ONNX model is [1,3,1080,1920] for batch size, channels, height and width.
 
 ```
 UNet(
